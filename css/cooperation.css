@@ -1,0 +1,343 @@
+/* CSS Document */
+/* by 2016.10 */
+
+/* font */
+@font-face {
+    font-family: "PingFang Regular";
+    src: url("../fonts/cooperation/PingFang Regular/PingFang Regular.eot"); /* IE9 */
+    src: url("../fonts/cooperation/PingFang Regular/PingFang Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/cooperation/PingFang Regular/PingFang Regular.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/cooperation/PingFang Regular/PingFang Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/cooperation/PingFang Regular/PingFang Regular.svg#PingFang Regular") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PingFang Medium";
+    src: url("../fonts/cooperation/PingFang Medium/PingFang Medium.eot"); /* IE9 */
+    src: url("../fonts/cooperation/PingFang Medium/PingFang Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/cooperation/PingFang Medium/PingFang Medium.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/cooperation/PingFang Medium/PingFang Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/cooperation/PingFang Medium/PingFang Medium.svg#PingFang Medium") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* 1 */
+header{
+    height: 724px;
+    background: url("../images/cooperation/cooperation-bg.png") center no-repeat;
+}
+
+.container{
+    position: absolute;
+    width: 974px;
+    left: 50%;
+    margin-left: -487px;
+}
+
+.hd{
+    top:0;
+    height: 128px;
+    z-index: 100;
+}
+
+.hd .logo a{
+    display: block;
+    float: left;
+    margin-top: 32px;
+}
+
+.logo .nav li:first-child{
+    float: left;
+    margin-left: 191px;
+}
+
+.logo .nav li{
+    float: left;
+    margin: 56px 59px 0 0;
+}
+
+.logo .nav .last-nav{
+    margin-right: 0;
+}
+
+.logo .nav li a{
+    color: #ffffff;
+    margin-top: 0;
+    font-family: "PingFang Regular";
+    font-size: 18px;
+}
+
+.logo .nav li a:hover{
+    color: #FF7800;
+    padding-bottom: 13px;
+    border-bottom: solid 2px #FF7800;
+}
+
+.logo .nav li .this{
+    color: #FF7800;
+    padding-bottom: 13px;
+    border-bottom: solid 2px #FF7800;
+}
+
+/* 2 */
+.self-media{
+    margin-top: 94px;
+}
+
+.self-media h1{
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+
+.self-media h2{
+    font-family: "PingFang Regular";
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    font-weight: 600;
+}
+
+.self-media-border{
+    position: absolute;
+    margin-top: 15px;
+    width: 44px;
+    height: 5px;
+    left: 50%;
+    margin-left: -22px;
+    background-color: #FF7800;
+}
+
+.self-media-container{
+    position: absolute;
+    margin-top: 108px;
+    width: 884px;
+    left: 50%;
+    margin-left: -442px;
+}
+
+.self-media-container span{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #333333;
+}
+
+.media-logo{
+    margin-top: 75px;
+}
+
+.col-1 li{
+    padding-left: 73px;
+    float: left;
+}
+
+.col-2{
+    display: inline-block;
+    padding-top: 76px;
+}
+
+.col-2 li{
+    padding-left: 73px;
+    float: left;
+}
+
+/* 3 */
+.cooperation{
+    margin-top: 765px;
+}
+
+.cooperation h1{
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+
+.cooperation h2{
+    font-family: "PingFang Regular";
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+}
+
+.cooperation-border{
+    position: absolute;
+    margin-top: 15px;
+    width: 44px;
+    height: 5px;
+    background-color: #FF7800;
+    left: 50%;
+    margin-left: -22px;
+}
+
+.cooperation-container{
+    position: absolute;
+    margin-top: 101px;
+    width: 594px;
+    left: 50%;
+    margin-left: -297px;
+}
+
+.cooperation-contact{
+    padding-left: 84px;
+}
+
+.cooperation-contact ul li{
+    float: left;
+
+}
+
+.cooperation-email{
+    padding-left: 200px;
+}
+
+.cooperation-contact ul li span{
+    position: absolute;
+    padding-left: 52px;
+    top: 8px;
+    display: inline-block;
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #333333;
+}
+
+.cooperation-container p{
+    display: inline-block;
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #333333;
+}
+
+/* 4 */
+footer{
+    margin-top: 356px;
+    height: 361px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #DDDDDD;
+}
+
+.footer-container{
+    position: absolute;
+    width: 850px;
+    height: 230px;
+    left: 50%;
+    margin-left: -425px;
+}
+
+.footer-about{
+    margin-top: 36px;
+}
+
+.footer-about h2{
+    font-family: "PingFang Medium";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-about ul{
+    margin-top: 19px;
+}
+
+.footer-about ul li{
+    margin-top: 10px;
+}
+
+.footer-about ul li a{
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer-download{
+    position: absolute;
+    margin-left: 295px;
+    top: 36px;
+    width: 119px;
+}
+
+.footer-download h2{
+    font-family: "PingFang Medium";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-download ul{
+    margin-top: 23px;
+}
+
+.footer-download ul li{
+    margin-top: 23px;
+}
+
+.footer-download ul li a{
+    display: inline-block;
+    position: absolute;
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #333333;
+    width: 90px;
+}
+
+.ios-download{
+    top: 59px;
+    left: 45px;
+}
+
+.android-download{
+    top: 121px;
+    left: 45px;
+}
+
+.footer-contact{
+    position: absolute;
+    margin-left: 654px;
+    top: 36px;
+}
+
+.footer-contact h2{
+    font-family: "PingFang Medium";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-contact ul{
+    margin-top: 30px;
+}
+
+.footer-contact ul li a,.weixin span{
+    position: absolute;
+    width: 152px;
+    margin-left: 47px;
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #333333;
+}
+
+.weixin span{
+    top: 66px;
+}
+
+.weibo a{
+    top: 105px;
+}
+
+.email a{
+    top: 146px;
+}
+
+.copyright{
+    margin-top: 42px;
+}
+
+.copyright p{
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-top: 12px;
+}
+

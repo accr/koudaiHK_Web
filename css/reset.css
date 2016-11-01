@@ -1,0 +1,33 @@
+/* CSS Reset */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,/* structural elements 结构元素 */
+dl,dt,dd,ul,ol,li,/* list elements 列表元素 */
+pre,/* text formatting elements 文本格式元素 */
+form,fieldset,legend,button,input,textarea,/* form elements 表单元素 */
+th,td /* table elements 表格元素 */{margin:0;padding:0;}
+a,a:hover{text-decoration:none}
+ul,ol{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.p_r{position:relative;}
+.p_a{position:absolute;}
+.f12{font-size:12px}
+.f13{font-size:13px}
+.f14{font-size:14px}
+.f15{font-size:15px}
+.f16{font-size:16px}
+.f17{font-size:17px}
+.f18{font-size:18px}
+.f19{font-size:19px}
+.f20{font-size:20px}
+.fb{font-weight:bold}
+
+li{text-decoration: none;}
+
+/*html5*/
+article, aside, dialog, footer, header, section, footer, nav, figure, menu { display: block; }

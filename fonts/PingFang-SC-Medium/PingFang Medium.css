@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "PingFang Medium";
+    src: url("PingFang Medium.eot"); /* IE9 */
+    src: url("PingFang Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    
+    url("PingFang Medium.woff") format("woff"), /* chrome、firefox */
+    url("PingFang Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    
+    url("PingFang Medium.svg#PingFang Medium") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

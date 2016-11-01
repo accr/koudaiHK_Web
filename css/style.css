@@ -1,0 +1,851 @@
+/* CSS Document */
+/* by 2016.10 */
+
+/* font */
+@font-face {
+    font-family: "PingFang Regular";
+    src: url("../fonts/PingFang Regular/PingFang Regular.eot"); /* IE9 */
+    src: url("../fonts/PingFang Regular/PingFang Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/PingFang Regular/PingFang Regular.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/PingFang Regular/PingFang Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/PingFang Regular/PingFang Regular.svg#PingFang Regular") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PingFang Medium";
+    src: url("../fonts/PingFang Medium/PingFang Medium.eot"); /* IE9 */
+    src: url("../fonts/PingFang Medium/PingFang Medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/PingFang Medium/PingFang Medium.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/PingFang Medium/PingFang Medium.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("../fonts/PingFang Medium/PingFang Medium.svg#PingFang Medium") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* 1 */
+header{
+    height: 908px;
+    background: url("../images/home/home-bg1.png") center no-repeat;
+}
+
+.container{
+    position: absolute;
+    width: 974px;
+    left: 50%;
+    margin-left: -487px;
+}
+
+.hd{
+    top:0;
+    height: 128px;
+    z-index: 100;
+}
+
+.hd .logo a{
+    display: block;
+    float: left;
+    margin-top: 32px;
+}
+
+.logo .nav li:first-child{
+    float: left;
+    margin-left: 191px;
+}
+
+.logo .nav li{
+    float: left;
+    margin: 56px 59px 0 0;
+}
+
+.logo .nav .last-nav{
+    margin-right: 0;
+}
+
+.logo .nav li a{
+    color: #ffffff;
+    margin-top: 0;
+    font-family: "PingFang Regular";
+    font-size: 18px;
+}
+
+.logo .nav li a:hover{
+    color: #FF7800;
+    padding-bottom: 13px;
+    border-bottom: solid 2px #FF7800;
+}
+
+.logo .nav li .this{
+    color: #FF7800;
+    padding-bottom: 13px;
+    border-bottom: solid 2px #FF7800;
+}
+
+.container .layer-left{
+    margin-top: 160px;
+    margin-left: 23px;
+    width: 431px;
+}
+
+.container .layer-left h1{
+    font-family: "PingFang Medium";
+    font-size: 58px;
+    color: #FFFFFF;
+}
+
+.container .layer-left p{
+    font-family: "PingFang Regular";
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.download{
+    margin-top: 94px;
+}
+
+.download .QR-code{
+    width: 179px;
+}
+.download .QR-code span{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 15px;
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.download .store .ios-store{
+    position: absolute;
+    margin-left: 230px;
+    top: 525px;
+}
+
+.download .store .android-store{
+    position: absolute;
+    margin-left: 230px;
+    top: 610px;
+}
+
+.layer-right{
+    position: absolute;
+    top: 230px;
+    margin-left: 560px;
+}
+
+/* 2 */
+.video-container{
+    margin: 0 auto;
+}
+
+.video-container h2{
+    font-family: "PingFang Medium";
+    color: #333333;
+    font-size: 32px;
+    margin-top: 145px;
+    text-align: center;
+}
+
+.video-container p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.video-border{
+    position: relative;
+    margin-top: 26px;
+    width: 60px;
+    height: 6px;
+    background-color: #FF7800;
+    left: 50%;
+    margin-left: -30px;
+    margin-bottom: 99px;
+}
+
+#koudaihk-video{
+    margin: 0 auto;
+}
+
+/* 3 */
+.strategy{
+    height: 908px;
+    margin-top: 89px;
+    background: url("../images/home/home-bg-5.png") center no-repeat;
+}
+
+.strategy h2{
+    padding-top: 80px;
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.strategy p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.strategy-border{
+    position: relative;
+    margin-top: 26px;
+    width: 60px;
+    height: 6px;
+    background-color: #FF7800;
+    left: 50%;
+    margin-left: -30px;
+}
+.strategy-list{
+    position: relative;
+    left: 50%;
+    width: 1010px;
+    height: 591px;
+    padding-top: 91px;
+    margin-left: -500px;
+    z-index: 100;
+}
+
+.strategy-list ul li{
+    float: left;
+}
+
+.strategy-list ul .city{
+    padding-right: 25px;
+}
+
+.strategy-list ul .disney{
+    padding-left: 25px;
+}
+
+.strategy-list ul .mall{
+    padding-right: 25px;
+}
+
+.strategy-list ul .car{
+    padding-left: 25px;
+}
+
+
+.strategy-list ul li span{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 19px;
+    padding-bottom: 34px;
+}
+
+/* 4 */
+.subway{
+    padding-top: 128px;
+    height: 780px;
+}
+
+.subway h2{
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+
+.subway p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.subway-border{
+    position: absolute;
+    margin-top: 26px;
+    width: 60px;
+    height: 6px;
+    background-color: #FF7800;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.sub-container{
+    width: 882px;
+    position: absolute;
+    left: 50%;
+    margin-left: -441px;
+    margin-top: 120px;
+}
+
+.sub-left{
+    margin-top: 295px;
+    width: 171px;
+}
+
+.sub-left h3{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+.sub-left p{
+    font-family: "PingFang Regular";
+    font-size: 12px;
+    color: #000000;
+}
+
+.sub-iphone{
+    position: absolute;
+    top: 15px;
+    margin-left: 160px;
+    overflow: hidden;
+    height: 615px;
+}
+
+.sub-right{
+    position: absolute;
+    display: inline-block;
+    top: 95px;
+    left: 685px;
+}
+
+.sub-right ul .restaurant h3{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 29px;
+}
+
+.sub-right ul li span{
+    font-family: "PingFang Regular";
+    font-size: 12px;
+    color: #000000;
+}
+
+.sub-right .redhouse{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+.sub-right .redhouse h3{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #000000;
+    padding-top: 20px;
+    padding-left: 33px;
+}
+
+.sub-right .redhouse p{
+    font-family: "PingFang Regular";
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+}
+
+/* 5 */
+.sale{
+    display: block;
+    height: 905px;
+    background: url("../images/home/home-bg-3-1.png") center no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+.sale h2{
+    padding-top: 69px;
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sale p{
+    padding-top: 20px;
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 17px;
+    text-align: center;
+}
+
+.sale-border{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    margin-top: 26px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #FF7800;
+}
+
+/* 6 */
+.goods-price{
+    height: 808px;
+}
+
+.goods-price h2{
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #333333;
+    padding-top: 119px;
+    text-align: center;
+}
+
+.goods-price p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.goods-price-border{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #FF7800;
+    margin-top: 26px;
+}
+
+.goods-list{
+    position: absolute;
+    left: 50%;
+    width: 1010px;
+    height: 404px;
+    margin-top: 95px;
+    margin-left: -505px;
+    z-index: 100;
+}
+
+.goods-list ul li{
+    float: left;
+}
+
+.goods-list ul .makeups{
+    width: 202px;
+    height: 202px;
+    background-color: #F74B68;
+}
+
+.goods-list ul .makeups h3{
+    font-family: "PingFang Regular";
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.makeups h4{
+    font-family: "PingFang Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.goods-list ul .luxury{
+    width: 202px;
+    height: 202px;
+    background-color: #292118;
+}
+
+.goods-list ul .luxury h3{
+    font-family: "PingFang Regular";
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.luxury h4{
+    font-family: "PingFang Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.goods-list ul .sport{
+    width: 202px;
+    height: 202px;
+    background-color: #9BE32B;
+}
+
+.sport h3{
+    font-family: "PingFang Regular";
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.sport h4{
+    font-family: "PingFang Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.goods-list .milk{
+    width: 202px;
+    height: 202px;
+    background-color: #C172FF;
+}
+
+.goods-list .milk h3{
+    font-family: "PingFang Regular";
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.goods-list .milk h4{
+    font-family: "PingFang Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.goods-list .electronic{
+    width: 202px;
+    height: 202px;
+    background-color: #54C2F5;
+}
+
+.goods-list .electronic h3{
+    font-family: "PingFang Regular";
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 72px;
+}
+
+.goods-list .electronic h4{
+    font-family: "PingFang Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* 7 */
+.coupon{
+    height: 908px;
+    background: url("../images/home/home-bg-7.png") center no-repeat;
+}
+
+.coupon h2{
+    padding-top: 101px;
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.coupon p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.coupon-border{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    margin-top: 26px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #FF7800;
+}
+
+.coupon img{
+    position: absolute;
+    display: inline-block;
+    width: 1100px;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: 130px;
+}
+
+/* 8 */
+.group{
+    height: 800px;
+}
+
+.group h2{
+    margin-top: 101px;
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+}
+
+.group p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.group-border{
+    position: absolute;
+    margin-top: 26px;
+    width: 60px;
+    height: 6px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #FF7800;
+}
+
+.group img{
+    position: absolute;
+    display: inline-block;
+    width: 1100px;
+    left: 50%;
+    margin-left: -550px;
+}
+
+/* 9 */
+.shop{
+    background: url("../images/home/home-bg-9.png") center no-repeat;
+    height: 908px;
+}
+
+.shop h2{
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 92px;
+}
+
+.shop p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 29px;
+    text-align: center;
+}
+
+.shop-border{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    left: 50%;
+    margin-left: -30px;
+    margin-top: 26px;
+    background-color: #FF7800;
+}
+
+.shop img{
+    display: inline-block;
+    position: absolute;
+    width: 1100px;
+    left: 50%;
+    margin-left: -550px;
+    margin-top: 30px;
+}
+
+/* 10 */
+.user h2{
+    font-family: "PingFang Medium";
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+    padding-top: 128px;
+}
+
+.user p{
+    font-family: "PingFang Regular";
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.user-border{
+    position: absolute;
+    width: 60px;
+    height: 6px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #FF7800;
+    margin-top: 26px;
+}
+.user img{
+    padding-top: 108px;
+    position: absolute;
+    width: 966px;
+    left: 50%;
+    margin-left: -483px;
+}
+
+/* 11 */
+.merchant{
+    background-color: #F8F8F8;
+    height: 408px;
+    width: 100%;
+    margin-top: 790px;
+}
+
+.merchant .merchant-container{
+    position: absolute;
+    width: 810px;
+    left: 50%;
+    margin-left: -405px;
+}
+
+.merchant-container h2{
+    font-family: "PingFang Regular";
+    font-size: 28px;
+    color: #333333;
+    padding-top: 52px;
+    padding-bottom: 34px;
+}
+.merchant-container ul li{
+    float: left;
+    margin-right: 34px;
+}
+
+.merchant7{
+    padding-top: 34px;
+}
+
+.merchant8{
+    padding-top: 34px;
+}
+
+.merchant9{
+    padding-top: 34px;
+}
+
+/* 12 */
+footer{
+    height: 361px;
+}
+
+.footer-container{
+    position: absolute;
+    width: 850px;
+    height: 230px;
+    left: 50%;
+    margin-left: -425px;
+}
+
+.footer-about{
+    margin-top: 36px;
+}
+
+.footer-about h2{
+    font-family: "PingFang Medium";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-about ul{
+    margin-top: 19px;
+}
+
+.footer-about ul li{
+    margin-top: 10px;
+}
+
+.footer-about ul li a{
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer-download{
+    position: absolute;
+    margin-left: 295px;
+    top: 36px;
+    width: 119px;
+}
+
+.footer-download h2{
+    font-family: "PingFang Medium";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-download ul{
+    margin-top: 23px;
+}
+
+.footer-download ul li{
+    margin-top: 23px;
+}
+
+.footer-download ul li a{
+    display: inline-block;
+    position: absolute;
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #333333;
+    width: 90px;
+}
+
+.ios-download{
+    top: 59px;
+    left: 45px;
+}
+
+.android-download{
+    top: 121px;
+    left: 45px;
+}
+
+.footer-contact{
+    position: absolute;
+    margin-left: 654px;
+    top: 36px;
+}
+
+.footer-contact h2{
+    font-family: "PingFang Medium";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-contact ul{
+    margin-top: 30px;
+}
+
+.footer-contact ul li a,.weixin span{
+    position: absolute;
+    width: 152px;
+    margin-left: 47px;
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #333333;
+}
+
+.weixin span{
+    top: 66px;
+}
+
+.weibo a{
+    top: 105px;
+}
+
+.email a{
+    top: 146px;
+}
+
+.copyright{
+    margin-top: 42px;
+}
+
+.copyright p{
+    font-family: "PingFang Regular";
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-top: 12px;
+}
